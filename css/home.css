@@ -17,14 +17,12 @@ body
 
 #logo{
     display:block;
-    position:relative;
     margin:4% auto 0%;
 }
 #logoS{
     display:block;
     width: 300px;
-    position:relative;
-    margin:0 auto 2.5%;
+   margin:0 auto 0; /* Will not center vertically and won't work in IE6/7. */
 }
 .topnav {
     margin:0;
