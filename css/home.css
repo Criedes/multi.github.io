@@ -13,6 +13,7 @@ body
 .bg{
     background: linear-gradient(335deg,#478ef6,#aac8f5);
     display: block;
+    width: 100vw;
     height: 400px;
 }
 
@@ -32,6 +33,7 @@ body
 }
 
 /* Style the links inside the navigation bar */
+
 .topnav a {
 
     float: right;
@@ -52,8 +54,75 @@ body
 .topnav .icon {
     display: none;
 }
+/*main box*/
+.main{
+    width: 100vw;
+    height: 200px;
+    display: block;
+    }
 
+#left-box{
+    padding-top:3%; 
+    background: #f4f4f4;
+    width: 60%;
+    position: relative;
+    display: block;
+    height: 100%;
+    float: left;
+}
+
+#right-box{
+    background: #eafb0a;
+    width: 40%;
+    position: relative;
+    display: block;
+    height: 100%;
+    float: left;
+}
+/*End*/
+
+#title{
+    display: block;
+    font-size: 4em;
+    color: #478ef6;
+    margin-left: 3%;
+    margin-bottom:0px: 
+}
+#sub{
+    display: block;
+    font-size: 2em;
+    color: black;
+    margin-left: 3%;
+}
+#splash{
+    width: 100%;
+}
 @media only screen and (max-width: 640px) {
+    #title{
+    margin-left: 5%;
+    display: block;
+    font-size: 3em;
+    margin-left: 3%;
+}
+    #sub{
+    margin-left: 5%;
+    display: block;
+    font-size: 1em;
+    margin-left: 3%;
+}
+    #left-box
+    {
+        float: none;
+        width: 100%;
+    }
+    #right-box
+    {
+        float: none;
+        width: 100%;
+    }
+    .title{
+    font-size: 1.5em;
+}
     #logo{
         padding: 120px 0 0;
     }
