@@ -11,7 +11,8 @@ body
     padding: 0;
 }
 .bg{
-    background: #478ef6;
+    background: linear-gradient(335deg,#478ef6,#aac8f5);
+    display: block;
     height: 400px;
 }
 
