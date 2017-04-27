@@ -19,6 +19,7 @@ body
 #logo{
     display:block;
     margin:4% auto 0%;
+    width: 300px;
 }
 #logoS{
     display:block;
@@ -53,8 +54,14 @@ body
 }
 
 @media only screen and (max-width: 640px) {
+    #logo{
+        padding: 120px 0 0;
+    }
     .topnav {
   background-color: #333;
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 .topnav a:hover {
     background-color: #ddd;
@@ -68,7 +75,6 @@ body
 }
 
 @media only screen and (max-width: 640px) {
-  .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
     left: 0;
