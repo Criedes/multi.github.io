@@ -87,7 +87,7 @@ body
 
 #title{
     display: block;
-    font-size: 4em;
+    font-size: 6em;
     color: #478ef6;
     margin-left: 7%;
     margin-bottom:0px: 
@@ -97,15 +97,16 @@ body
     font-size: 2em;
     color: black;
     margin-left: 7%;
+    margin-top:-2% 
 }
 #splash{
     width: 70%;
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1000px) {
     #title{
     margin-left: 5%;
     display: block;
-    font-size: 3em;
+    font-size: 4.5em;
     margin-left: 3%;
 }
     #sub{
@@ -151,7 +152,7 @@ body
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1000px) {
   .topnav.responsive .icon {
     position: absolute;
     left: 0;
