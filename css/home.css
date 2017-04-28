@@ -1,9 +1,18 @@
 /* Add a black background color to the top navigation */
 @import url('https://fonts.googleapis.com/css?family=Kanit');
+
+@font-face {
+    font-family: 'Superspace';
+    src: url('../fonts/Superspace.ttf');
+    src: url('../fonts/Superspace.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
 body
 {
     background: #f4f4f4;
     margin:0;
+    width: 100%;
 }
 *{
     font-family: 'Kanit', sans-serif;
@@ -14,9 +23,8 @@ body
 .bg{
     background: linear-gradient(335deg,#478ef6,#aac8f5);
     display: block;
-
+    width: 100%;
     height: 400px;
-    overflow-x: hidden;
 }
 
 #logo{
@@ -87,7 +95,7 @@ body
 
 #title{
     display: block;
-    font-size: 4em;
+    font-size: 6em;
     color: #478ef6;
     margin-left: 7%;
     margin-bottom:0px: 
@@ -96,23 +104,58 @@ body
     display: block;
     font-size: 2em;
     color: black;
+    margin-top: -1.5%;
     margin-left: 7%;
+    position: relative;
 }
 #splash{
     width: 70%;
 }
-@media only screen and (max-width: 640px) {
-    #title{
-    margin-left: 5%;
+
+.box{
+    width: 100%;
+    height: 50px;
+    margin-top: 3%; 
+    margin-left: 7%;
     display: block;
-    font-size: 3em;
-    margin-left: 3%;
 }
-    #sub{
-    margin-left: 5%;
+#chk{
+    display: block;
+    width:50px;
+    height: 100%;
+}
+#lb{
+    height: 100%;
+    display: block;
+    float: left;
+    position: relative;
+}
+#rb{
+    height: 100%;
+    display: block;
+    float: left;
+    position: relative;
+}
+#content{
+    width: 100%;
     display: block;
     font-size: 1.5em;
-    margin-left: 3%;
+    color: black;
+    margin-left:10%; 
+    padding-top: 1.3%;
+    font-family: 'Superspace';
+}
+@media only screen and (max-width: 640px) {
+#title{
+    font-size: 4.5em;
+    margin: 0;
+}
+#sub{
+    margin: 0;
+    font-size: 2em; 
+}
+#content{
+    text-align: left;
 }
     #left-box
     {
@@ -127,9 +170,6 @@ body
     }
     #splash{
     width: 100%;
-}
-    .title{
-    font-size: 1.5em;
 }
     #logo{
         padding: 100px 0 0;
