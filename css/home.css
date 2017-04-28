@@ -13,8 +13,9 @@ body
 .bg{
     background: linear-gradient(335deg,#478ef6,#aac8f5);
     display: block;
-    width: 100vw;
+
     height: 400px;
+    overflow-x: hidden;
 }
 
 #logo{
@@ -25,7 +26,7 @@ body
 #logoS{
     display:block;
     width: 300px;
-   margin:0 auto 0; /* Will not center vertically and won't work in IE6/7. */
+   margin:0% auto 4%; /* Will not center vertically and won't work in IE6/7. */
 }
 .topnav {
     margin:0;
@@ -56,11 +57,12 @@ body
 }
 /*main box*/
 .main{
-    width: 100vw;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     display: block;
-    }
+    background: #f4f4f4;
 
+    }
 #left-box{
     padding-top:3%; 
     background: #f4f4f4;
@@ -73,7 +75,9 @@ body
 
 #right-box{
     background: #eafb0a;
+    background: #f4f4f4;
     width: 40%;
+    padding-top:10%; 
     position: relative;
     display: block;
     height: 100%;
@@ -107,7 +111,7 @@ body
     #sub{
     margin-left: 5%;
     display: block;
-    font-size: 1em;
+    font-size: 1.5em;
     margin-left: 3%;
 }
     #left-box
