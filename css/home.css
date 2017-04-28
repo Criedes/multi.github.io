@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Kanit');
 body
 {
+    background: #f4f4f4;
     margin:0;
 }
 *{
@@ -74,10 +75,9 @@ body
 }
 
 #right-box{
-    background: #eafb0a;
     background: #f4f4f4;
     width: 40%;
-    padding-top:10%; 
+    padding-top:5%; 
     position: relative;
     display: block;
     height: 100%;
@@ -89,17 +89,17 @@ body
     display: block;
     font-size: 4em;
     color: #478ef6;
-    margin-left: 3%;
+    margin-left: 7%;
     margin-bottom:0px: 
 }
 #sub{
     display: block;
     font-size: 2em;
     color: black;
-    margin-left: 3%;
+    margin-left: 7%;
 }
 #splash{
-    width: 100%;
+    width: 70%;
 }
 @media only screen and (max-width: 640px) {
     #title{
@@ -116,6 +116,7 @@ body
 }
     #left-box
     {
+        text-align: center;
         float: none;
         width: 100%;
     }
@@ -124,11 +125,14 @@ body
         float: none;
         width: 100%;
     }
+    #splash{
+    width: 100%;
+}
     .title{
     font-size: 1.5em;
 }
     #logo{
-        padding: 120px 0 0;
+        padding: 100px 0 0;
     }
     .topnav {
   background-color: #333;
