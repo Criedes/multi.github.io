@@ -61,8 +61,13 @@
 
 	.img{
 		width: 90%;
+		transition: 0.3s all;
 	}
 
+	.img:hover{
+		width: 100%;
+		transition: 0.3s all;
+	}
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
