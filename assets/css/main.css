@@ -54,6 +54,16 @@
 		width: 70%;
 	}
 
+	.profile{
+		width: 30%;
+		display: inline-block;
+		margin: 1% 1% 1% 1%;
+	}
+	.box_box{
+		display: table;
+		overflow: hidden;
+		width: 30%;
+	}
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
