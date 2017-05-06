@@ -1678,7 +1678,7 @@
 		}
 
 	body, input, select, textarea {
-		font-family: Arial, Helvetica, "Kanit",sans-serif;
+		font-family: "Kanit", Arial, Helvetica,sans-serif;
 		font-weight: normal;
 		line-height: 1.5em;
 		letter-spacing: -0.015em;
